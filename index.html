@@ -1,13 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pre entregable 1</title>
-
+    <title>Pre entregable 2</title>
+    <!-- Nicolas de los Santos, comision 61990 JS FLEX-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="main.js"></script>
+    <header>
+        <div class="container-title">
+            <h1 id="title">Sistema de Agenda</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="container-existentes">
+            <div class="container-title">
+                <h3>Agendas existentes</h3>
+            </div>
+            <div class="container-agendas">
+            </div>
+        </div>
+        
+        <div class="container-crear-nueva">
+            <div class="container-title">
+                <h3>Crear nueva agenda</h3>
+            </div>
+            <div class="container-crear-agenda">
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha"><br>
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora"><br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"><br>
+                <input type="button" value="Crear Agenda" id="crear-agenda-btn">
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
 </body>
 </html>
